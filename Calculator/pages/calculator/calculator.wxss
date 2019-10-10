@@ -1,0 +1,51 @@
+page{
+  background: #000
+}
+.screen{
+  position: fixed;
+  bottom: 760rpx;
+  width: 750rpx;
+  word-wrap: break-word;
+}
+.screen view{
+  text-align: right;
+  margin-right: 30rpx;
+  color: #fff;
+  font-size: 30px;
+}
+.bottom{
+  position: fixed;
+  bottom: 0;
+}
+.btnGroup{
+  display: flex;
+}
+.btn-item{
+  width: 189rpx;
+  text-align: center;
+  line-height: 150rpx;
+  border-radius: 0px;
+}
+icon{
+  position: absolute;
+  left: 55rpx;
+  top: 37rpx;
+}
+.zero{
+  width: 376rpx;
+}
+.btn-item::after{
+  border-radius: 0px;          
+}
+.white{
+  background: #EFEFED;
+}
+.orange{
+  background: #FC9504;
+}
+.gray{
+  background: #CFCFCF;
+}
+.shadow{
+  background: #999
+}
